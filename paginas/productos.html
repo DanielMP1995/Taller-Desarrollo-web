@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CSS/output.css" rel="stylesheet">
+    <title>Productos ElectroWare</title>
+    <link rel="stylesheet" href="/CSS/estilos2.css">
+    <link rel="icon" href="/ilustraciones/electroware.svg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <ul class="nav justify-content-center color">
+        <li class="nav-item">
+            <a class="nav-link" href="/index.HTML" style="color: black;"><strong>EceltroWare</strong></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/paginas/nosotros.html" style="color: black;"><strong>Nosotros</strong></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/paginas/productos.html" style="color: black;"><strong>Nuestros
+                    Productos</strong></a>
+        </li>
+    </ul>
+    <div style="border-top: 30px solid rgba(52, 136, 101, 0.2); text-align: center; padding: 10px 0;">
+        <h1 style="font-size: 3.5rem;"><span>Nuestros productos</span></h1>
+        <div>
+            <div class="bg-personalizada">
+                <div class="mx-auto : px-8;">
+
+                </div>
+
+                <!-- Apartado de objetos en venta -->
+                <div class="bg-black">
+                    <div class="mx-auto  px-1 py-8 sm:px-1 sm:py-8 lg:max-w-7xl lg:px-3">
+                        <h2 class="sr-only">Products</h2>
+                        <div
+                            class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8 justify-items-center">
+                            <!-- division de los productos (Laptops MSI) -->
+                            <!-- 1 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/msi-gama-alta-removebg-preview.png"
+                                    alt="laptop msi gama alta"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>MSI Titan 18 HX (A14Vx)</strong><br>
+                                    • Procesador: Intel Core i9-14900HX<br>
+                                    • Tarjeta de video: NVIDIA GeForce RTX 4080 (175W)<br>
+                                    • Memoria RAM: 64GB DDR5<br>
+                                    • Disco sólido: 2TB NVMe SSD<br>
+                                    • Pantalla: 17.3 pulgadas QHD+ (2560x1440) con 240Hz, o 4K UHD+ (3840x2160) con
+                                    120Hz, ambas con
+                                    panel IPS
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 2,499.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-1" class="text-white">Cantidad:</label>
+                                    <input id="quantity-1" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(1)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                                </h3>
+                            </a>
+                            <!-- 2 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/MSI.GamaMedia-removebg-preview.png"
+                                    alt="laptop msi gama media"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>MSI Alpha 15 A3DDK.</strong><br>
+                                    • Procesador: AMD Ryzen 7 3750H (4 núcleos, hasta 4.0 GHz de reloj máximo)<br>
+                                    • Tarjeta de video: AMD Radeon RX 5500M (4GB GDDR6)<br>
+                                    • Memoria RAM: 16GB DDR4 (2 ranuras)<br>
+                                    • Disco sólido: 512GB NVMe SSD<br>
+                                    • Pantalla: 15.6 pulgadas FHD (1920x1080), 144Hz, IPS-Level<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 899.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-2" class="text-white">Cantidad:</label>
+                                    <input id="quantity-2" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(2)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 3 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color:rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/MSI.GamaBaja-removebg-preview.png"
+                                    alt="laptop msi gama baja"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>MSI Thin A15</strong><br>
+                                    • Procesador: AMD Ryzen 5 7535HS (6 núcleos, hasta 4.55 GHz de reloj máximo)<br>
+                                    • Tarjeta de video: NVIDIA GeForce RTX 2050 Laptop GPU (6GB GDDR6)<br>
+                                    • Memoria RAM: 8GB DDR5<br>
+                                    • Disco sólido: 512GB NVMe SSD<br>
+                                    • Pantalla: 15.6 pulgadas FHD (1920x1080), 144Hz, IPS-Level<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 499.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-3" class="text-white">Cantidad:</label>
+                                    <input id="quantity-3" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(3)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- division de los productos (Laptops DELL) -->
+                            <!-- 1 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/del-gama-media-removebg-preview.png"
+                                    alt="laptop dell gama alta"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Dell XPS 16 (9640)</strong><br>
+                                    • Procesador: Intel Core i7-12700H<br>
+                                    • Memoria RAM: 32GB<br>
+                                    • Almacenamiento: 1TB SSD<br>
+                                    • Gráficos: Nvidia GeForce RTX 3050 Ti<br>
+                                    • Pantalla: 16 pulgadas, 3840x2400 píxeles (4K UHD)<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 1,699.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-4" class="text-white">Cantidad:</label>
+                                    <input id="quantity-4" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(4)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 2 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/del-gama-media-removebg-preview.png"
+                                    alt="laptop dell gama media"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Dell Inspiron 17 5000 5758</strong><br>
+                                    • Procesador: Intel Core i5-5200U (5ª generación)<br>
+                                    • Memoria RAM: Hasta 16GB<br>
+                                    • Almacenamiento: 500GB HDD<br>
+                                    • Gráficos: Nvidia GeForce 920M 2GB o Intel HD 5500<br>
+                                    • Pantalla: 17.3 pulgadas, 1920x1080 píxeles (opcional Full HD)<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 699.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-5" class="text-white">Cantidad:</label>
+                                    <input id="quantity-5" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(2)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 3-->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/DELL.GamaBaja-removebg-preview.png"
+                                    alt="laptop dell gama baja"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Dell Inspiron 15 3525</strong><br>
+                                    • Procesador: Intel Celeron N3050<br>
+                                    • Memoria RAM: 4GB<br>
+                                    • Almacenamiento: 500GB HDD<br>
+                                    • Gráficos: Intel HD Graphics 400<br>
+                                    • Pantalla: 15.6 pulgadas, 1366x768 píxeles<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 479.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-6" class="text-white">Cantidad:</label>
+                                    <input id="quantity-6" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(6)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- division de los productos (Laptops ASUS) -->
+                            <!-- 1-->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/ASUS.GamaAlta-removebg-preview.png"
+                                    alt="laptop asus gama alta"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>ASUS Zenbook Pro 16X OLED (UX7602)</strong><br>
+                                    • Pantalla: 16 pulgadas, 3.2K 120Hz OLED<br>
+                                    • Procesador: Intel Core i9-13905H<br>
+                                    • Memoria RAM: 32 GB LPDDR5X<br>
+                                    • Almacenamiento: 2 TB SSD<br>
+                                    • Gráficos: NVIDIA GeForce RTX 4080<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 1999.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-7" class="text-white">Cantidad:</label>
+                                    <input id="quantity-7" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(7)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+
+                            <!-- 2-->
+
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/ASUS.GamaMedia-removebg-preview.png"
+                                    alt="laptop asus gama media"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>ASUS Vivobook 15 M1502YA-AB74</strong><br>
+                                    • Pantalla: 15.6 pulgadas, 1920x1080 píxeles (Full HD)<br>
+                                    • Procesador: AMD Ryzen 7 7730U<br>
+                                    • Memoria RAM: 16 GB<br>
+                                    • Almacenamiento: 512 GB SSD<br>
+                                    • Gráficos: AMD Radeon Graphics<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 799.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-8" class="text-white">Cantidad:</label>
+                                    <input id="quantity-8" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(8)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+
+                            <!-- 3-->
+
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/ASUS.GamaBaja-removebg-preview.png"
+                                    alt="laptop asus gama baja"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>ASUS X540LA-SI30205P</strong><br>
+                                    • Pantalla: 15.6 pulgadas, 1366x768 píxeles<br>
+                                    • Procesador: Intel Core i3-5020U, 2.2 GHz<br>
+                                    • Memoria RAM: 4 GB<br>
+                                    • Almacenamiento: 1 TB HDD<br>
+                                    • Gráficos: Intel HD Graphics 5500<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 539.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-9" class="text-white">Cantidad:</label>
+                                    <input id="quantity-9" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(9)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+
+                            <!-- Apartado de mouses -->
+
+                            <!-- 1 -->
+
+
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Mouse.Logitech-removebg-preview.png"
+                                    alt="laptop asus gama baja"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Logitech: MX Master 3S</strong><br>
+                                    • Un mouse inalámbrico de alto rendimiento, ideal para productividad y
+                                    comodidad.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 134.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-10" class="text-white">Cantidad:</label>
+                                    <input id="quantity-10" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(10)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+
+                            <!-- 2 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Mouse.Razer-removebg-preview.png"
+                                    alt="mouse razer viper v3 pro"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Razer: Viper V3 Pro</strong><br>
+                                    • Un mouse inalámbrico ultraligero diseñado para esports.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 154.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-11" class="text-white">Cantidad:</label>
+                                    <input id="quantity-11" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(11)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 3 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Mouse.Asus-removebg-preview.png"
+                                    alt="mouse asus rog gladius ii"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>ASUS: ROG Gladius II</strong><br>
+                                    • Un mouse inalámbrico ergonómico y personalizable, perfecto para juegos.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 79.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-12" class="text-white">Cantidad:</label>
+                                    <input id="quantity-12" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(12)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+
+
+                            <!-- Apartado de teclados -->
+
+                            <!-- 1 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/mx-mechanical-mini-mini-keyboard-top-view-graphite-deu-removebg-preview.png"
+                                    alt="teclado logitech mx mechanical wireless"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Logitech MX Mechanical Wireless Keyboard</strong><br>
+                                    • Este teclado mecánico inalámbrico ofrece una experiencia de escritura precisa
+                                    y cómoda con su
+                                    diseño delgado y ligero.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 169.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-13" class="text-white">Cantidad:</label>
+                                    <input id="quantity-13" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(13)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 2 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Teclado.Razer-removebg-preview.png"
+                                    alt="teclado razer blackwidow v4 pro"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Razer BlackWidow V4 Pro Wired Mechanical Gaming Keyboard</strong><br>
+                                    • Este teclado mecánico está diseñado para juegos, con switches verdes táctiles
+                                    y clics, Chroma
+                                    RGB y un reposabrazos magnético.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 199.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-14" class="text-white">Cantidad:</label>
+                                    <input id="quantity-14" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(14)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 3 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Teclado.Cosair-removebg-preview.png"
+                                    alt="teclado corsair k95 rgb platinum"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Corsair K95 RGB Platinum Mechanical Gaming Keyboard</strong><br>
+                                    • Este teclado mecánico de alto rendimiento cuenta con teclas RGB programables,
+                                    un dial de macro
+                                    y un diseño ergonómico.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 169.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-15" class="text-white">Cantidad:</label>
+                                    <input id="quantity-15" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(15)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+
+
+                            <!-- Apartado de audífonos -->
+
+                            <!-- 1 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Audifinos.ZoneWireless-removebg-preview.png"
+                                    alt="audífonos logitech zone wireless 2"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Logitech Zone Wireless 2</strong><br>
+                                    • Estos auriculares inalámbricos están diseñados para llamadas claras y sin
+                                    ruido gracias a la
+                                    tecnología de optimización de inteligencia artificial. Son ideales para
+                                    videoconferencias y
+                                    trabajo remoto.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 99.99 USD
+                                    </p>
+                                    <br>
+                                    <label for="quantity-16" class="text-white">Cantidad:</label>
+                                    <input id="quantity-16" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(16)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 2 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Audifinos.H390.jpg-removebg-preview.png"
+                                    alt="audífonos logitech h390 usb"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Logitech H390 USB Computer Headset</strong><br>
+                                    • Este auricular USB ofrece audio digital mejorado y controles integrados en el
+                                    cable. Es
+                                    perfecto para uso en oficina y clases online, con un micrófono con cancelación
+                                    de ruido.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 49.99 USD
+                                    </p>
+                                    <br><br>
+                                    <label for="quantity-17" class="text-white">Cantidad:</label>
+                                    <input id="quantity-17" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(17)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                            <!-- 3 -->
+                            <a href="#" class="group"
+                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/imagenes/imagenes sin fondo/Audifinos.GPro-removebg-preview.png"
+                                    alt="audífonos logitech g pro x wireless"
+                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                                <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                    <strong>Logitech G Pro X Wireless Gaming Headset</strong><br>
+                                    • Este audífono inalámbrico está diseñado para juegos profesionales, con un
+                                    sonido envolvente de
+                                    7.1, micrófono de alta calidad con cancelación de ruido y conectividad
+                                    LIGHTSPEED para baja
+                                    latencia. Es ideal para jugadores que buscan una experiencia de audio superior y
+                                    sin
+                                    interrupciones.<br>
+                                    <p class="mt-1 text-lg font-medium text-gray-900">
+                                        <strong>Precio Oferta:</strong> $ 149.99 USD
+                                    </p>
+                                    
+                                    <label for="quantity-18" class="text-white">Cantidad:</label>
+                                    <input id="quantity-18" type="number" value="1" min="1"
+                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+                                    <button onclick="comprar(18)"
+                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- More products... -->
+                </div>
+            </div>
+        </div>
+
+        <div class="social-media-section" style="text-align: center; padding: 30px 0;">
+            <h3 style="">Síguenos en nuestras redes sociales</h3>
+            <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
+                <a href="https://facebook.com" target="_blank"><img src="/ilustraciones/facebook.png" alt="Facebook"
+                        style="width: 40px; margin: 0 10px;"></a>
+                <a href="https://instagram.com" target="_blank"><img src="/ilustraciones/instagram.jpg" alt="Instagram"
+                        style="width: 40px; margin: 0 10px;"></a>
+                <a href="https://twitter.com" target="_blank"><img src="/ilustraciones/twiter.png" alt="Twitter"
+                        style="width: 40px; margin: 0 10px;"></a>
+            </div>
+
+            <div class="container-fluid Pcontainer">
+                <p style="color: rgb(0, 0, 0);">Contáctanos al: +1 800 123 4567</p>
+                <p style="color: rgb(0, 0, 0);">Estamos en Ecuador,Quito</p>
+                <p style="color: rgb(0, 0, 0);">CC.Espiral</p>
+            </div>
+</body>
+
+</html>

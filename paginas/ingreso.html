@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/estilos-ingreso.css">
+    <link rel="icon" href="/ilustraciones/person-square.svg">
+    <title>Inicio de Sesión</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1 style="text-align: center;;">ELECTROWARE</h1>
+    
+    
+        <div class="login-container">
+        <h2>Inicio de Sesión</h2>
+        
+        <label for="username">Usuario</label>
+        <input type="text" id="username" placeholder="Ingresa tu usuario">
+        
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" placeholder="Ingresa tu contraseña">
+        
+        <button onclick="iniciarSesion()">Iniciar Sesión</button>
+        
+        
+        <p id="errorMessage" class="error-message">Usuario o contraseña incorrectos</p>
+        <p id="successMessage" class="success-message">¡Bienvenido!</p>
+
+        <button class="logout-btn" onclick="salir()">Salir</button>
+    </div>
+
+   
+    <script src="/boton-compras.js"></script>
+
+    
+</body>
+</html>

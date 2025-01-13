@@ -1,0 +1,20 @@
+
+  body {
+    margin: 0; 
+    
+    pad
+  padding: 20px; 
+    
+    
+  border: 05px solid black;
+  }
+
+.container-fluid{
+  background-color: rgba(52, 136, 101, 0.2);
+}
+
+.Pcontainer{
+  background-color: rgba(52, 136, 101, 0.2);
+  margin: 30px;
+}
+
