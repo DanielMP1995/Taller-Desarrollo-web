@@ -1,0 +1,303 @@
+body {
+    background-color:white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    margin: 0;  
+    pad
+  padding: 20px; 
+  border: 05px solid black;
+
+  }
+
+
+.portada_img {
+    /*portada color y medidas*/
+    display: flex;
+
+    height: 250px;
+    padding: 1% 2%;
+    background-color: rgb(0, 0, 0)
+}
+
+
+.portada_img {
+    width: 100px;
+    width: auto;
+    transition: all 0.3s;
+    /*realiza efecto de imagen */
+}
+
+.portada_img {
+    list-style: none;
+}
+
+.portada_img li {
+    display: inline-block;
+    padding: 10 100px;
+}
+
+.portada_img a {
+    font-size: ;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.portada_img img:hover {
+
+    transform: scale(1.1);
+    /*para cuando pones el mouse se eleva*/
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: flex-start;
+    /**/
+
+
+}
+
+.header .nav_links {
+    list-style: none;
+}
+
+.header .nav_links li {
+    /*para que este de forma horizontal el menu*/
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.header .nav_links li:hover {
+    /*aumenta como zoom en las letras*/
+    transform: scale(1.1);
+}
+
+.header .nav_links a {
+    color: aliceblue;
+    font-size: 700;
+    text-decoration: none;
+    justify-items: center;
+}
+
+.header2 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header2 .instalaciones img {
+    height: 200px;
+    width: auto;
+}
+
+.contenerdor {
+    display: flex;
+    /*para poner vision mision*/
+    text-justify: auto;
+}
+
+.contenerdor .cont1 {
+
+    display: flex;
+    /*para poner vision mision*/
+    text-justify: auto;
+}
+
+.contenerdor .cont2 {
+
+    display: flex;
+    /*para poner vision mision*/
+    text-justify: auto;
+}
+
+.cont3 {
+    background-color: rgba(0, 0, 0, 8.);
+    height: 420px;
+    width: auto;
+
+}
+
+.instalaciones {
+    text-align: center;
+
+}
+
+.container-fluid {
+    background-color: rgba(52, 136, 101, 0.2);
+    text-align: center;
+
+}
+
+.header3 .container-fluid .uno {
+    
+    height: 100px;
+    width: auto;
+}
+
+.img_descuento {
+    text-align: center;
+}
+
+.contenerdorFluido {
+    background-color: black;
+    height: 100px;
+
+}
+
+
+.img_descuentos {
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 100px;
+}
+
+.descuentos {
+    display: flex;
+}
+
+.img_1 {
+
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.img_2 {
+
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img_3 {
+
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img_4 {
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.txt_1 {
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 1px;
+    flex-direction: column;
+    
+    background-color: transparent;
+    border-radius: 5px;
+
+
+}
+
+.txt_2 {
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 1px;
+    flex-direction: column;
+    
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+
+.txt_3 {
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 1px;
+    flex-direction: column;
+   
+    background-color: transparent;
+    border-radius: 5px;
+
+}
+
+.txt_4 {
+
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 1px;
+    flex-direction: column;
+    padding: 10px;
+    flex-direction: column;
+   
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.descuentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.cont1{
+    background-color: rgba(52, 136, 101, 0.2);
+    margin: 60px;
+}
+.cont2{
+    background-color: rgba(52, 136, 101, 0.2);
+    margin: 60px;
+}
+.cont3{
+    background-color: rgba(52, 136, 101, 0.2);
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .portada_img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_links {
+        flex-direction: column;
+    }
+
+    .nav_links li {
+        margin: 5px 0;
+    }
+
+}
