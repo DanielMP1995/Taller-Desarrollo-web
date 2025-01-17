@@ -1,0 +1,137 @@
+{
+    "productos":[
+        {
+            "id":"1",
+            "nombre":"Logitech MX Mechanical Wireless Keyboard",
+            "precio":169.99 ,
+            "cantidad":0
+        },
+
+        {
+            "id":"2",
+            "nombre":"ASUS: ROG Gladius II",
+            "precio":79.99 ,
+            "cantidad":0
+        },
+
+        {
+            "id":"3",
+            "nombre":"Logitech Zone Wireless 2",
+            "precio":99.99 ,
+            "cantidad":0
+        },
+
+        {
+            "id":"4",
+            "nombre":"Logitech H390 USB Computer Headset",
+            "precio":49.99 ,
+            "cantidad":0
+        },
+
+        {
+            "id":"5",
+            "nombre":"MSI Titan 18 HX (A14Vx)",
+            "precio":2499.99 ,
+            "cantidad":0
+        },
+
+        {
+            "id":"6",
+            "nombre":"MSI Alpha 15 A3DDK",
+            "precio":899.99 ,
+            "cantidad":0
+        },
+
+        {
+            "id":"7",
+            "nombre":"MSI Thin A15",
+            "precio":499.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"10",
+            "nombre":"Dell Inspiron 17 5000 5758",
+            "precio":699.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"9",
+            "nombre":"Dell XPS 16 9640",
+            "precio":2499.99 ,
+            "cantidad":0
+        },
+
+        {
+            "id":"11",
+            "nombre":"Dell Inspiron 15 3525",
+            "precio":479.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"13",
+            "nombre":"ASUS Zenbook Pro 16X OLED ",
+            "precio":1999.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"14",
+            "nombre":"ASUS Vivobook 15 M1502YA-AB74",
+            "precio":799.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"15",
+            "nombre":"ASUS X540LA-SI30205P",
+            "precio":539.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"8",
+            "nombre":"Logitech: MX Master 3S",
+            "precio":134.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"12",
+            "nombre":"Razer: Viper V3 Pro",
+            "precio":154.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"16",
+            "nombre":"Razer BlackWidow V4 Pro Wired Mechanical",
+            "precio":199.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"17",
+            "nombre":"Corsair K95 RGB Platinum Mechanical ",
+            "precio":169.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"18",
+            "nombre":"Logitech G Pro X Wireless ",
+            "precio":149.99  ,
+            "cantidad":0
+        },
+
+        {
+            "id":"19",
+            "nombre":"Regalo Sorpresa ",
+            "precio":19.99  ,
+            "cantidad":0
+        }
+    
+    ]
+}

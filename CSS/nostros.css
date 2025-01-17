@@ -1,0 +1,201 @@
+/* Estilo base del cuerpo */
+body {
+    background-image: url('/ilustraciones/fondonosotros1.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
+    background-position: center; /* Centra la imagen */
+    margin: 0;
+    padding: 20px;
+    border: 5px solid black;
+    font-family: 'Roboto', sans-serif; /* Fuente moderna de Google Fonts */
+}
+
+
+/* Portada */
+.portada_img {
+    display: flex;
+    height: 250px;
+    padding: 1% 2%;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    transition: all 0.3s;
+}
+
+.portada_img li {
+    display: inline-block;
+    padding: 10px 100px;
+}
+
+.portada_img a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.portada_img img:hover {
+    transform: scale(1.1);
+}
+
+/* Cabecera */
+.header, .header2 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.header .nav_links {
+    list-style: none;
+}
+
+.header .nav_links li {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.header .nav_links li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav_links a {
+    color: aliceblue;
+    font-weight: 700;
+    text-decoration: none;
+    justify-items: center;
+}
+
+/* Contenedor */
+.contenerdor, .cont1, .cont2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(52, 136, 101, 0.2);
+    padding: 20px;
+    margin: 20px;
+    text-align: justify; /* Justificar texto */
+    border: 2px solid #348865; /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.cont3 {
+    display: inline-block; /* Hacer que el contenedor se ajuste al tamaño del contenido */
+    background-color: rgba(52, 136, 101, 0.2); /* Fondo verde translúcido */
+    padding: 20px; /* Espaciado interno */
+    text-align: justify; /* Justificar texto */
+    margin: 20px auto; /* Centrando el contenedor */
+    border: 2px solid #348865; /* Borde verde */
+    border-radius: 10px; /* Bordes redondeados */
+    height: 420px;
+    width: auto;
+}
+
+
+/* Sección de instalaciones */
+.instalaciones {
+    text-align: center;
+}
+
+.header2 .instalaciones img {
+    height: 200px;
+    width: auto;
+}
+
+/* Redes sociales */
+.social-media-section {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.social-media-section img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-media-section img:hover {
+    transform: scale(1.1);
+}
+
+/* Descuentos */
+.descuentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.img_descuentos, .img_1, .img_2, .img_3, .img_4 {
+    width: auto;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(0, 0, 0);
+}
+
+.txt_1, .txt_2, .txt_3, .txt_4 {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding: 1px;
+    flex-direction: column;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/* Media queries para móviles */
+@media (max-width: 768px) {
+    .portada_img, .nav_links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav_links li {
+        margin: 5px 0;
+    }
+}
+
+
+
+
+
+
+/* Collage de Imágenes */
+.collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.collage-img {
+    width: 300px; /* Ajusta este valor según el tamaño deseado */
+    height: 300px; /* Ajusta este valor según el tamaño deseado */
+    object-fit: cover;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.collage-img:hover {
+    transform: scale(1.1);
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .collage-img {
+        width: 100px; /* Ajusta este valor según el tamaño deseado */
+        height: 100px; /* Ajusta este valor según el tamaño deseado */
+    }
+}
+
+@media (max-width: 480px) {
+    .collage-img {
+        width: 80px; /* Ajusta este valor según el tamaño deseado */
+        height: 80px; /* Ajusta este valor según el tamaño deseado */
+    }
+}

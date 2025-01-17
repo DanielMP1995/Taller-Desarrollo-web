@@ -1,15 +1,15 @@
 body {
-    background-color:white;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('/ilustraciones/fondonosotros1.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza */
+    background-position: center; /* Centra la imagen */
+    margin: 0;
+    padding: 20px;
+    border: 5px solid black;
+    font-family: 'Roboto', sans-serif; /* Fuente moderna de Google Fonts */
 }
-body {
-    margin: 0;  
-    pad
-  padding: 20px; 
-  border: 05px solid black;
 
-  }
 
 
 .portada_img {
@@ -22,27 +22,7 @@ body {
 }
 
 
-.portada_img {
-    width: 100px;
-    width: auto;
-    transition: all 0.3s;
-    /*realiza efecto de imagen */
-}
 
-.portada_img {
-    list-style: none;
-}
-
-.portada_img li {
-    display: inline-block;
-    padding: 10 100px;
-}
-
-.portada_img a {
-    font-size: ;
-    color: aliceblue;
-    text-decoration: none;
-}
 
 .portada_img img:hover {
 
@@ -61,13 +41,91 @@ body {
 
 .header .nav_links {
     list-style: none;
+
 }
+
+@keyframes moveText {
+    0% {
+        transform: translateX(100%);
+        /* Empieza desde la derecha */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* Termina en la izquierda */
+    }
+}
+
+.carrusel2 {
+    display: flex;
+    width: 100%;
+    animation: slide 18s infinite linear;
+}
+
+.carrusel2-item {
+    width: 100vw;
+    object-fit: cover;
+}
+
+.carrusel2 {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye las imágenes con espacio entre ellas */
+    width: 100%;
+    overflow: hidden;
+    animation: slide 18s infinite linear;
+}
+
+.carrusel2-item {
+    width: 30%;
+    /* Ajusta cada imagen a un tamaño adecuado */
+    margin: 0 2%;
+    /* Espacio entre las imágenes */
+    object-fit: cover;
+}
+
+.carrusel2-item:hover {
+    transform: scale(1.1);
+}
+
+
+.moving-text {
+    display: inline-block;
+    white-space: nowrap;
+    /* Evita que el texto se divida en varias líneas */
+    animation: moveText 8s linear infinite;
+    /* Animación que dura 10 segundos y se repite infinitamente */
+}
+
 
 .header .nav_links li {
     /*para que este de forma horizontal el menu*/
     display: inline-block;
-    padding: 10px 10px;
+    padding: 50px 50px;
+
 }
+
+.nav-item {
+    transition: transform 0.3s ease;
+    /* Transición suave al mover el mouse */
+}
+
+.nav-item:hover {
+    transform: translateY(-5px);
+    /* Eleva el elemento al pasar el mouse */
+}
+
+/* Agregar el efecto de elevación */
+h1 {
+    transition: transform 0.3s ease;
+    /* Transición suave */
+}
+
+h1:hover {
+    transform: translateY(-5px);
+    /* Eleva el texto al pasar el mouse */
+}
+
 
 .header .nav_links li:hover {
     /*aumenta como zoom en las letras*/
@@ -127,13 +185,13 @@ body {
 }
 
 .container-fluid {
-    background-color: rgba(52, 136, 101, 0.2);
+    background-color: rgba(23, 37, 31, 0.2);
     text-align: center;
 
 }
 
 .header3 .container-fluid .uno {
-    
+
     height: 100px;
     width: auto;
 }
@@ -208,7 +266,7 @@ body {
     color: white;
     padding: 1px;
     flex-direction: column;
-    
+
     background-color: transparent;
     border-radius: 5px;
 
@@ -224,7 +282,7 @@ body {
     color: white;
     padding: 1px;
     flex-direction: column;
-    
+
     background-color: transparent;
     border-radius: 5px;
 
@@ -239,7 +297,7 @@ body {
     color: white;
     padding: 1px;
     flex-direction: column;
-   
+
     background-color: transparent;
     border-radius: 5px;
 
@@ -256,12 +314,12 @@ body {
     flex-direction: column;
     padding: 10px;
     flex-direction: column;
-   
+
     background-color: transparent;
     border-radius: 5px;
 }
 
-.descuentos {
+.descuento {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -269,17 +327,57 @@ body {
     margin-top: 20px;
 }
 
-.cont1{
+.cont1 {
     background-color: rgba(52, 136, 101, 0.2);
     margin: 60px;
 }
-.cont2{
+
+.cont2 {
     background-color: rgba(52, 136, 101, 0.2);
     margin: 60px;
 }
-.cont3{
+
+.cont3 {
     background-color: rgba(52, 136, 101, 0.2);
 
+}
+
+
+.nav-link {
+    color: #343a40 !important;
+
+
+    font-weight: bold;
+}
+
+/* Cambiar el fondo al pasar el mouse sobre el contenedor */
+.container {
+    transition: background-color 0.3s ease;
+    /* Transición suave para el cambio de fondo */
+}
+
+/* Cambiar el color de fondo al pasar el mouse sobre el contenedor */
+.container:hover {
+    background-color: rgba(228, 253, 5, 0.5);
+    /* Cambia el color de fondo cuando se pasa el mouse */
+}
+
+.descuentos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    gap: 20px;
+}
+
+.container {
+    background-color: rgba(23, 37, 31, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.txt_1, .txt_2, .txt_3, .txt_4, .txt_5, .txt_6 {
+    padding: 10px;
+    background-color: rgba(23, 37, 31, 0.2);
+    border-radius: 10px;
 }
 
 

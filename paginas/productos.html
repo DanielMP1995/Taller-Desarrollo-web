@@ -15,7 +15,7 @@
 
     <ul class="nav justify-content-center color">
         <li class="nav-item">
-            <a class="nav-link" href="/index.HTML" style="color: black;"><strong>EceltroWare</strong></a>
+            <a class="nav-link" href="/index.HTML" style="color: black;"><strong>ElectroWare</strong></a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="/paginas/nosotros.html" style="color: black;"><strong>Nosotros</strong></a>
@@ -25,6 +25,11 @@
                     Productos</strong></a>
         </li>
     </ul>
+
+    <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
     <div style="border-top: 30px solid rgba(52, 136, 101, 0.2); text-align: center; padding: 10px 0;">
         <h1 style="font-size: 3.5rem;"><span>Nuestros productos</span></h1>
         <div>
@@ -34,7 +39,7 @@
                 </div>
 
                 <!-- Apartado de objetos en venta -->
-                <div class="bg-black">
+                <div class="fondo-img">
                     <div class="mx-auto  px-1 py-8 sm:px-1 sm:py-8 lg:max-w-7xl lg:px-3">
                         <h2 class="sr-only">Products</h2>
                         <div
@@ -42,34 +47,29 @@
                             <!-- division de los productos (Laptops MSI) -->
                             <!-- 1 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
-                                <img src="/imagenes/imagenes sin fondo/msi-gama-alta-removebg-preview.png"
-                                    alt="laptop msi gama alta"
-                                    class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
-                                <h3 class="mt-4 text-sm text-gray-700 text-center">
-                                    <strong>MSI Titan 18 HX (A14Vx)</strong><br>
-                                    • Procesador: Intel Core i9-14900HX<br>
-                                    • Tarjeta de video: NVIDIA GeForce RTX 4080 (175W)<br>
-                                    • Memoria RAM: 64GB DDR5<br>
-                                    • Disco sólido: 2TB NVMe SSD<br>
-                                    • Pantalla: 17.3 pulgadas QHD+ (2560x1440) con 240Hz, o 4K UHD+ (3840x2160) con
-                                    120Hz, ambas con
-                                    panel IPS
-                                    <p class="mt-1 text-lg font-medium text-gray-900">
-                                        <strong>Precio Oferta:</strong> $ 2,499.99 USD
-                                    </p>
-                                    <br>
-                                    <label for="quantity-1" class="text-white">Cantidad:</label>
-                                    <input id="quantity-1" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
-                                    <button onclick="comprar(1)"
-                                        class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
-                                </h3>
-                                </h3>
-                            </a>
+                            style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
+                            <img src="/imagenes/imagenes sin fondo/msi-gama-alta-removebg-preview.png"
+                                alt="laptop msi gama alta"
+                                class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
+                            <h3 class="mt-4 text-sm text-gray-700 text-center">
+                                <strong>MSI Titan 18 HX (A14Vx)</strong><br>
+                                • Procesador: Intel Core i9-14900HX<br>
+                                • Tarjeta de video: NVIDIA GeForce RTX 4080 (175W)<br>
+                                • Memoria RAM: 64GB DDR5<br>
+                                • Disco sólido: 2TB NVMe SSD<br>
+                                • Pantalla: 17.3 pulgadas QHD+ (2560x1440) con 240Hz, o 4K UHD+ (3840x2160) con
+                                120Hz, ambas con panel IPS
+                                <p class="mt-1 text-lg font-medium text-gray-900">
+                                    <strong>Precio Oferta:</strong> $ 2,499.99 USD
+                                </p>
+                                <br>
+                            </h3>
+                            <button onclick="comprar(1)"
+                                class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
+                        </a>                     
                             <!-- 2 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/MSI.GamaMedia-removebg-preview.png"
                                     alt="laptop msi gama media"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -84,16 +84,14 @@
                                         <strong>Precio Oferta:</strong> $ 899.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-2" class="text-white">Cantidad:</label>
-                                    <input id="quantity-2" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(2)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 3 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color:rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color:rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/MSI.GamaBaja-removebg-preview.png"
                                     alt="laptop msi gama baja"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -108,9 +106,7 @@
                                         <strong>Precio Oferta:</strong> $ 499.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-3" class="text-white">Cantidad:</label>
-                                    <input id="quantity-3" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(3)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -118,8 +114,8 @@
                             <!-- division de los productos (Laptops DELL) -->
                             <!-- 1 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
-                                <img src="/imagenes/imagenes sin fondo/del-gama-media-removebg-preview.png"
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
+                                <img src="/ilustraciones/DELL.GamaAlta.png"
                                     alt="laptop dell gama alta"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
                                 <h3 class="mt-4 text-sm text-gray-700 text-center">
@@ -133,16 +129,14 @@
                                         <strong>Precio Oferta:</strong> $ 1,699.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-4" class="text-white">Cantidad:</label>
-                                    <input id="quantity-4" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(4)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 2 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/del-gama-media-removebg-preview.png"
                                     alt="laptop dell gama media"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -157,16 +151,14 @@
                                         <strong>Precio Oferta:</strong> $ 699.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-5" class="text-white">Cantidad:</label>
-                                    <input id="quantity-5" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(2)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 3-->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/DELL.GamaBaja-removebg-preview.png"
                                     alt="laptop dell gama baja"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -181,9 +173,7 @@
                                         <strong>Precio Oferta:</strong> $ 479.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-6" class="text-white">Cantidad:</label>
-                                    <input id="quantity-6" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(6)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -191,7 +181,7 @@
                             <!-- division de los productos (Laptops ASUS) -->
                             <!-- 1-->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/ASUS.GamaAlta-removebg-preview.png"
                                     alt="laptop asus gama alta"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -206,9 +196,7 @@
                                         <strong>Precio Oferta:</strong> $ 1999.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-7" class="text-white">Cantidad:</label>
-                                    <input id="quantity-7" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(7)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -217,7 +205,7 @@
                             <!-- 2-->
 
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/ASUS.GamaMedia-removebg-preview.png"
                                     alt="laptop asus gama media"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -232,9 +220,7 @@
                                         <strong>Precio Oferta:</strong> $ 799.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-8" class="text-white">Cantidad:</label>
-                                    <input id="quantity-8" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(8)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -243,7 +229,7 @@
                             <!-- 3-->
 
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/ASUS.GamaBaja-removebg-preview.png"
                                     alt="laptop asus gama baja"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -258,9 +244,7 @@
                                         <strong>Precio Oferta:</strong> $ 539.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-9" class="text-white">Cantidad:</label>
-                                    <input id="quantity-9" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(9)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -272,7 +256,7 @@
 
 
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Mouse.Logitech-removebg-preview.png"
                                     alt="laptop asus gama baja"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -284,9 +268,7 @@
                                         <strong>Precio Oferta:</strong> $ 134.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-10" class="text-white">Cantidad:</label>
-                                    <input id="quantity-10" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(10)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -294,7 +276,7 @@
 
                             <!-- 2 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color:rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Mouse.Razer-removebg-preview.png"
                                     alt="mouse razer viper v3 pro"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -305,16 +287,14 @@
                                         <strong>Precio Oferta:</strong> $ 154.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-11" class="text-white">Cantidad:</label>
-                                    <input id="quantity-11" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(11)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 3 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Mouse.Asus-removebg-preview.png"
                                     alt="mouse asus rog gladius ii"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -325,9 +305,7 @@
                                         <strong>Precio Oferta:</strong> $ 79.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-12" class="text-white">Cantidad:</label>
-                                    <input id="quantity-12" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(12)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -338,7 +316,7 @@
 
                             <!-- 1 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/mx-mechanical-mini-mini-keyboard-top-view-graphite-deu-removebg-preview.png"
                                     alt="teclado logitech mx mechanical wireless"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -351,16 +329,14 @@
                                         <strong>Precio Oferta:</strong> $ 169.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-13" class="text-white">Cantidad:</label>
-                                    <input id="quantity-13" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(13)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 2 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Teclado.Razer-removebg-preview.png"
                                     alt="teclado razer blackwidow v4 pro"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -373,16 +349,14 @@
                                         <strong>Precio Oferta:</strong> $ 199.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-14" class="text-white">Cantidad:</label>
-                                    <input id="quantity-14" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(14)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 3 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Teclado.Cosair-removebg-preview.png"
                                     alt="teclado corsair k95 rgb platinum"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -395,9 +369,7 @@
                                         <strong>Precio Oferta:</strong> $ 169.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-15" class="text-white">Cantidad:</label>
-                                    <input id="quantity-15" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(15)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -408,7 +380,7 @@
 
                             <!-- 1 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Audifinos.ZoneWireless-removebg-preview.png"
                                     alt="audífonos logitech zone wireless 2"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -423,16 +395,14 @@
                                         <strong>Precio Oferta:</strong> $ 99.99 USD
                                     </p>
                                     <br>
-                                    <label for="quantity-16" class="text-white">Cantidad:</label>
-                                    <input id="quantity-16" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
+
                                     <button onclick="comprar(16)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 2 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Audifinos.H390.jpg-removebg-preview.png"
                                     alt="audífonos logitech h390 usb"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -446,16 +416,13 @@
                                         <strong>Precio Oferta:</strong> $ 49.99 USD
                                     </p>
                                     <br><br>
-                                    <label for="quantity-17" class="text-white">Cantidad:</label>
-                                    <input id="quantity-17" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
                                     <button onclick="comprar(17)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
                             </a>
                             <!-- 3 -->
                             <a href="#" class="group"
-                                style="display: block; margin: 20px; background-color: rgba(52, 136, 101, 0.2); padding: 20px; border-radius: 8px;">
+                                style="display: block; margin: 20px; background-color: rgba(23, 37, 31, 0.2); padding: 20px; border-radius: 8px;">
                                 <img src="/imagenes/imagenes sin fondo/Audifinos.GPro-removebg-preview.png"
                                     alt="audífonos logitech g pro x wireless"
                                     class="aspect-square w-full rounded-lg object-contain group-hover:opacity-75 xl:aspect-[7/8]">
@@ -471,10 +438,6 @@
                                     <p class="mt-1 text-lg font-medium text-gray-900">
                                         <strong>Precio Oferta:</strong> $ 149.99 USD
                                     </p>
-                                    
-                                    <label for="quantity-18" class="text-white">Cantidad:</label>
-                                    <input id="quantity-18" type="number" value="1" min="1"
-                                        class="mt-1 px-3 py-2 border border-gray-300 rounded">
                                     <button onclick="comprar(18)"
                                         class="mt-2 px-6 py-3 bg-blue-500 text-white rounded">Comprar</button>
                                 </h3>
@@ -488,7 +451,7 @@
         </div>
 
         <div class="social-media-section" style="text-align: center; padding: 30px 0;">
-            <h3 style="">Síguenos en nuestras redes sociales</h3>
+            <h3>Síguenos en nuestras redes sociales</h3>
             <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
                 <a href="https://facebook.com" target="_blank"><img src="/ilustraciones/facebook.png" alt="Facebook"
                         style="width: 40px; margin: 0 10px;"></a>
@@ -503,6 +466,9 @@
                 <p style="color: rgb(0, 0, 0);">Estamos en Ecuador,Quito</p>
                 <p style="color: rgb(0, 0, 0);">CC.Espiral</p>
             </div>
+                        
+            <script src="/JS/modificacions.js"> </script>
+
 </body>
 
 </html>

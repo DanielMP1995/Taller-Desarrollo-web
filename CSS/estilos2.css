@@ -1,20 +1,18 @@
 
-  body {
-    margin: 0; 
-    
-    pad
-  padding: 20px; 
-    
-    
-  border: 05px solid black;
-  }
+body {
+  margin: 0;
+  padding: 0; /* Para evitar márgenes internos por defecto */
+  background-image: url('/ilustraciones/fondo.tomate.jpeg');
+  background-size: cover; /* Asegura que la imagen cubra toda el área */
+  background-position: center; /* Centra la imagen */
+  
+  height: 100vh; /* Hace que el body ocupe toda la altura de la ventana */
 
-.container-fluid{
-  background-color: rgba(52, 136, 101, 0.2);
 }
 
+
 .Pcontainer{
-  background-color: rgba(52, 136, 101, 0.2);
+  background-color: rgba(23, 37, 31, 0.2);
   margin: 30px;
 }
 

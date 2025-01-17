@@ -5,7 +5,7 @@ body {
     background-color: rgba(52, 136, 101, 0.2); 
     
     /* Imagen de fondo */
-    background-image: url('/ilustraciones/fondo-verde-iniciar.png');
+    background-image: url('/ilustraciones/fondo.tomate.jpeg');
     background-size: cover; /* Asegura que la imagen cubra toda la pantalla */
     background-repeat: no-repeat; /* No repite la imagen */
     background-position: center; /* Centra la imagen de fondo */
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-    font-size: 50px; git log
+    font-size: 50px; 
     margin-bottom: 70px; 
     color: #fcf7f7; 
     text-align: center; 
@@ -91,4 +91,5 @@ button:hover {
     margin-top: 10px;
     display: none;
 }
+
 

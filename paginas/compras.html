@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/estiloscompras.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegación centrada -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f8f9fa;">
+        <div class="container-fluid justify-content-center">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.HTML"
+                        style="color: black; font-size: 1.5rem;"><strong>ElectroWare</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginas/nosotros.html"
+                        style="color: black; font-size: 1.5rem;"><strong>Nosotros</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/paginas/productos.html"
+                        style="color: black; font-size: 1.5rem;"><strong>Nuestros Productos</strong></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Barra de búsqueda -->
+    <form class="d-flex ms-auto" style="text-align: center;">
+        <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+    </form>
+    <div style="border-top: 30px solid rgba(23, 37, 31, 0.2); text-align: center; padding: 10px 0;">
+        <div class="bg-personalizada">
+            <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+                <br>
+            </div>
+        </div>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: transparent;">
+            <div class="container-fluid justify-content-center">
+                <a class="navbar-brand" href="#"
+                    style="text-align: center; font-size: 1.8rem; font-weight: bold; font-size: 4.5rem; color: black;">
+                    Aprovecha Nuestros descuentos semanales!!!</a>
+                <br><br>
+            </div>
+        </nav>
+    </header>
+    <main>
+        
+        </h4>
+        <br><br>
+        <main>
+            <section>
+                <div class="d-flex justify-content-around">
+                    <button id="zz1" onclick="agregarProducto('1','Logitech MX Mechanical Wireless Keyboard', 169.99 )"
+                        class="btn btn-primary">Logitech Teclado</button>
+                    <button id="zz2" onclick="agregarProducto('2','ASUS: ROG Gladius II', 79.99)"
+                        class="btn btn-primary">Mouse ASUS</button>
+                    <div class="d-flex justify-content-around"></div>
+                    <button id="zz3" onclick="agregarProducto('3','Logitech Zone Wireless 2', 99.99 )"
+                        class="btn btn-primary">Audifonos LG ZW2</button>
+                    <button id="zz4" onclick="agregarProducto('4','Logitech H390 USB Computer Headset', 49.99 )"
+                        class="btn btn-primary">Audifonos LG H390</button>
+                </div>
+            </section>
+            <br><br><br>
+            <h1 style="text-align: center; color: rgb(0, 0, 0);">"Difruta de nuestro Gran Catalogo aqui."</h1>
+        <h4 style="text-align: center; color: rgb(0, 0, 0);">"Selecciona los productos y arma tu carrito de compra!!" </h4>
+        <br><br>
+            <section>
+                <div class="d-flex flex-wrap justify-content-between">
+                    <!-- Columna izquierda -->
+                    <div class="d-flex flex-column">
+                        <button id="zz5" onclick="agregarProducto('5','MSI Titan 18 HX A14Vx', 2499.99 )"
+                            class="btn btn-primary"> MSI Titan </button><br>
+                        <button id="zz6" onclick="agregarProducto('6','MSI Alpha 15 A3DDK', 899.99 )"
+                            class="btn btn-primary"> MSI Alpha </button><br>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <button id="zz7" onclick="agregarProducto('7','MSI Thin A15', 499.99 )" class="btn btn-primary">
+                            MSI Thin </button><br>
+                        <button id="zz8" onclick="agregarProducto('8','Logitech: MX Master 3S', 134.99 )"
+                            class="btn btn-primary"> Mouse LG 3S </button><br>
+                    </div>
+
+                    <!-- Columna derecha -->
+                    <div class="d-flex flex-column">
+                        <button id="zz9" onclick="agregarProducto('9','Dell XPS 16 9640', 1699.99 )"
+                            class="btn btn-primary"> Dell XPS </button><br>
+                        <button id="zz10" onclick="agregarProducto('10','Dell Inspiron 17 5000 5758', 699.99 )"
+                            class="btn btn-primary"> Dell 17 </button><br>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <button id="zz11" onclick="agregarProducto('11','Dell Inspiron 15 3525', 479.99 )"
+                            class="btn btn-primary"> Dell 15 </button><br>
+                        <button id="zz12" onclick="agregarProducto('12','Razer: Viper V3 Pro', 154.99 )"
+                            class="btn btn-primary"> Mouse Razer </button><br>
+                    </div>
+                    <!-- Columna izquierda (segunda fila) -->
+                    <div class="d-flex flex-column">
+                        <button id="zz13" onclick="agregarProducto('13','ASUS Zenbook Pro 16X OLED', 1999.99 )"
+                            class="btn btn-primary"> ASUS Zenbook </button><br>
+                        <button id="zz14" onclick="agregarProducto('14','ASUS Vivobook 15 M1502YA-AB74', 799.99 )"
+                            class="btn btn-primary"> ASUS Vivobook </button><br>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <button id="zz15" onclick="agregarProducto('15','ASUS X540LA-SI30205P', 539.99 )"
+                            class="btn btn-primary"> ASUS X540 </button><br>
+                        <button id="zz16"
+                            onclick="agregarProducto('16','Razer BlackWidow V4 Pro Wired Mechanical', 199.99 )"
+                            class="btn btn-primary"> Teclado Razer </button><br>
+                    </div>
+                    <!-- Columna derecha (segunda fila) -->
+                    <div class="d-flex flex-column">
+                        <button id="zz17"
+                            onclick="agregarProducto('17','Corsair K95 RGB Platinum Mechanical ', 199.99 )"
+                            class="btn btn-primary"> Teclado Corsair </button><br>
+                        <button id="zz18" onclick="agregarProducto('18','Logitech G Pro X Wireless ', 149.99 )"
+                            class="btn btn-primary"> Audífonos LG GPRO </button><br>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <div style="border-top: 30px solid rgba(23, 37, 31, 0.2); text-align: center; padding: 10px 0;">
+                <div class="bg-personalizada">
+                    <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+                        <br>
+                    </div>
+                </div>
+            </div>
+
+            <section>
+                <table class="table" id="tabla">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Cantidad</th>
+                            <th>Precio</th>
+                            <th>Total</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    </tbody>
+                    <tfoot>
+                        <th>TOTAL</th>
+                        <th></th>
+                        <th></th>
+                        <td id="total">0.00</td>
+                        <td></td>
+                    </tfoot>
+                </table>
+            </section>
+        </main>
+
+        <div class="container-fluid sociales" style="text-align: center; padding: 10px 0; border-radius: 5px;">
+            <h3 style="font-size: 1.5rem;">Síguenos en nuestras redes sociales</h3>
+            <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
+                <a href="https://facebook.com" target="_blank"><img src="/ilustraciones/facebook.png" alt="Facebook"
+                        style="width: 40px; margin: 0 10px;"></a>
+                <a href="https://instagram.com" target="_blank"><img src="/ilustraciones/instagram.jpg" alt="Instagram"
+                        style="width: 40px; margin: 0 10px;"></a>
+                <a href="https://twitter.com" target="_blank"><img src="/ilustraciones/twiter.png" alt="Twitter"
+                        style="width: 40px; margin: 0 10px;"></a>
+            </div>
+        </div>
+        <br><br>
+        <div class="container-fluid base1">
+            <p style="color: rgb(0, 0, 0);">Contáctanos al: +1 800 123 4567</p>
+            <p style="color: rgb(0, 0, 0);">Estamos Ubicados en Ecuador, Quito</p>
+            <p style="color: rgb(0, 0, 0);">CC.Espiral, local 234</p>
+
+        </div>
+        <script src="/JS/modificacions.js"></script>
+</body>
+
+</html>

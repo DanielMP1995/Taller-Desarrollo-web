@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* Para evitar márgenes internos por defecto */
+  background-image: url('/ilustraciones/fondo.tomate.jpeg');
+  background-size: cover;
+  /* Asegura que la imagen cubra toda el área */
+  background-position: center;
+  /* Centra la imagen */
+
+  height: 100vh;
+  /* Hace que el body ocupe toda la altura de la ventana */
+
+}
+
+.header .nav_links {
+  list-style: none;
+
+}
+
+/* pa a imagen de pagos */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img {
+  max-width: 300px;
+  height: 400px;
+}
+.container-fluid {
+  background-color: rgba(23, 37, 31, 0.2);
+  text-align: center;
+    
+  /*section para tabla*/
+
+
+}
+section {
+  max-height: 400px; /* Define una altura máxima para el contenedor */
+  overflow-y: auto; /* Permite desplazarse si el contenido es más grande que el contenedor */
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #f2f2f2;
+}
+
+.table th, .table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+.tabla-container {
+  max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto;  /* Aparecerá una barra de desplazamiento si el contenido excede la altura */
+  margin: 0 auto;    /* Centra el contenedor de la tabla */
+  width: 100%;       /* Asegura que ocupe todo el ancho disponible */
+}
+
+.btn-primary{
+  color: black;
+}
